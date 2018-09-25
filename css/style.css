@@ -1,0 +1,263 @@
+
+
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+    font-size:12px ;
+    line-height: 1.42857143;
+    color:#333333;
+    overflow-x: hidden;
+    background-color: #f0f0f0;}
+
+/*  Top Navbar styles ********/
+#top{
+    background-color: #90ad33;
+    padding: 10px 0px;
+    height: 40px !important;
+}
+#top .offer{
+    color:#fff;
+}
+#top .offer .btn {
+    text-transform: uppercase;
+}
+@media (max-width: 991px) {
+    #top .offer {
+        margin-bottom:10px;
+    }
+}
+@media (max-width: 991px) {
+    #top{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+#top a{
+    color:#fff;
+}
+li{
+    list-style-type: none !important;
+    display: inline-block;
+    font-size:12px !important;
+
+    font-family:monospace;
+    font-weight: bold;
+}
+li:before{
+    content: "|\00a0";
+    padding: 1px 2px;
+    color: #fff;
+}
+/* Bottom-menu starts here */
+@media (max-width: 991px) {
+    #bottom-menu{
+        font-size: 12px;
+
+    }
+}
+
+#bottom-menu{
+    height: 50px;
+    background-color:#90ad33;
+    border-top:1px solid whitesmoke !important;
+    box-shadow: 2px 2px 8px #90ad33;
+}
+.logo{
+    width:200px;
+    height: 50px;
+    margin-top: -2px;
+    margin-left: 10px;
+
+}
+.bottom-menu{
+    margin-top: 15px;
+    text-align:right;
+    margin-right: 125px;
+}
+.bottom-menu li a {
+    color: #FFF;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.btn-mn{
+    font-size: 15px;
+}
+/*----------Landing area section */
+#landing-area{
+    background-image: url("../image/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height:70vh;
+
+
+}
+
+.slogan{
+    position:relative;
+
+}
+.slogan1{
+    position: absolute;
+    top:60px;
+    left:70px;
+    color:#fff;
+}
+.slogan2{
+    position: absolute;
+    top:110px;
+    left:70px;
+    color:#f99425;
+}
+.slogan3{
+    position: absolute;
+    top:250px;
+    left:70px;
+    color:#fff;
+}
+
+#formsearch{
+    position: absolute;
+    width:90%;
+    height: 55px;
+    background-color:#fff;
+    top:310px;
+    left:5%;
+    border: 2px solid white;
+}
+
+#formsearch input[type="text"]{
+    position: absolute;
+    width: 1000px !important;
+    top:20%;
+    left: 2%;
+    color:#000000;
+    font-family: "Roboto Black";
+    letter-spacing: 2px;
+    font-size:18px;
+    background-color: #fff!important;
+    border: none;
+    outline: none;
+    padding-left:50px;
+}
+#formsearch button{
+    position: absolute;
+    width: 100px !important;
+    top:20%;
+    left: 88%;
+    background-color: #0caa41;
+    border: none;
+    outline: none;
+    font-family: "Roboto Black ";
+    font-weight: 400;
+    font-size: 16px;
+    color: whitesmoke;
+}
+/****** end of landing Area ***********/
+/****** registration ***********/
+ #register {
+    width:250px!important;
+    height: 400px !important;
+    background-color: red !important;
+    border: 1px solid black;
+    z-index: 1;
+     position: absolute;
+     top:30px;
+     right: 75px;
+     opacity: 0.9;
+   display: none;
+
+}
+  h3 {
+     font-size: 14px !important;
+      text-align: center;
+      color: #000;
+
+ }
+  ul li a  #register:hover{
+    display: inline !important;
+    
+}
+
+
+
+
+/****** end of registration ***********/
+/***** top jobs ****************/
+#top-jobs h2{
+    font-size: 20px !important;
+    font-family: Roboto;
+    font-weight: 300;
+}
+#top-line{
+    border:1px solid black !important;
+}
+.job-1{
+        width: 300px;
+    height: 100px;
+    background-color:whitesmoke;
+
+    box-shadow: 4px 3px 10px black;
+    margin-bottom: 20px;
+    font-weight: 400;
+   margin-top: -25px;
+
+
+
+}
+
+.job-name{
+
+    color:black;
+    font-family:"Roboto Black";
+    font-weight: 400;
+    font-size: 18px;
+
+
+
+
+}
+
+.job-loc {
+
+    color: #000;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 15px;
+    margin-left: 30px;
+
+}
+.job-fun{
+
+    color: #000;
+    font-family: monospace;
+    font-weight: 100;
+    margin-left: 5px;
+
+
+}
+/***** top jobs ****************/
+/***** job details page ****************/
+#job_details{
+    width: 1000px;
+
+    background-color:white;
+    margin-top: 5px;
+}
+#job_summary{
+    width: 1000px;
+
+
+}
+/***** end job details page ****************/
